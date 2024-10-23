@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float f1 = sc.nextFloat();
+        float f2 = sc.nextFloat();
+        
+        int n1 = (int) f1;
+        int n2 = (int) f2;
+        
+        //..... YOUR CODE STARTS HERE .....
+        // int bitwiseAnd = ;
+        // int bitwiseOr = ;
+        // int bitwiseXor = ;
+        // int bitwiseNotAnd = (~n1) & n2;
+
+        // Print results in the specified format
+        System.out.println("Bitwise AND result: " + (n1 & n2));
+        System.out.println("Bitwise OR result: " + (n1 | n2));
+        System.out.println("Bitwise XOR result: " + (n1 ^ n2));
+        System.out.println("Bitwise NOT and AND result: " + ((~n1) & n2));
+
+        
+        //..... YOUR CODE ENDS HERE .....
+    }
+}
